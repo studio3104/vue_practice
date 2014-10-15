@@ -1,32 +1,32 @@
-html, body, #editor {
-    margin: 0;
-    height: 100%;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #333;
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
 }
 
-textarea, #editor div {
+polygon {
+    fill: #42b983;
+    opacity: .75;
+}
+
+circle {
+    fill: transparent;
+    stroke: #999;
+}
+
+text {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 10px;
+    fill: #666;
+}
+
+label {
     display: inline-block;
-    width: 49%;
-    height: 100%;
-    vertical-align: top;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0 20px;
+    margin-left: 10px;
+    width: 20px;
 }
 
-textarea {
-    border: none;
-    border-right: 1px solid #ccc;
-    resize: none;
-    outline: none;
-    background-color: #f6f6f6;
-    font-size: 14px;
-    font-family: 'Monaco', courier, monospace;
-    padding: 20px;
+#raw {
+    position: absolute;
+    top: 0;
+    left: 300px;
 }
-
-code {
-    color: #f66;
 }
